@@ -44,6 +44,11 @@ document.addEventListener("DOMContentLoaded",function () {
 
         list[index].classList.remove("visible");
         index++;
+
+        if (index > list.length - 1) {
+            index = 0;
+        }
+
         list[index].classList.add("visible");
 
     });
@@ -52,8 +57,14 @@ document.addEventListener("DOMContentLoaded",function () {
         console.log("click");
 
         list[index].classList.remove("visible");
-        index++;
+        index--;
+
+        if (index < 0) {
+            index = list.length - 1;
+        }
+
         list[index].classList.add("visible");
+
 
     });
 
