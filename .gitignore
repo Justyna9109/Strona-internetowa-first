@@ -7,6 +7,6 @@ package-lock.json
 node_modules/
 .sass-cache/
 
-
-### Webstorm ##
-.idea/
+.idea
+*~
+0.example
