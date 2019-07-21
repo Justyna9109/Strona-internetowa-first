@@ -1,0 +1,87 @@
+
+.text {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #eeeeee;
+}
+
+.black_chair {
+  background-color: black;
+}
+
+.text_picture {
+  width: 40%;
+  position: relative;
+  left: 40px;
+}
+
+.text_picture ul{
+  list-style: none;
+}
+
+.text_picture li{
+  display: none;
+}
+
+.text_picture .visible {
+  display: inline-block;
+}
+
+.title {
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 35px;
+  margin-top: 30px;
+}
+
+.blue {
+  color: #00b3ff;
+}
+
+.text_content {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 10px;
+}
+
+.lorem {
+  text-align: center;
+  font-family: 'ralewayregular';
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.more {
+  border: 1px solid #00b3ff;
+  background-color: #00b3ff;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  width: 220px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 30px;
+  display: flex;
+  align-self: center;
+  margin-top: 30px;
+}
+
+.sign {
+  font-size: 90px;
+  color: #00b3ff;
+  font-weight: bold;
+  position: absolute;
+  top: 150px;
+  left: 50px;
+}
+
+.sign1 {
+  font-size: 90px;
+  color: #00b3ff;
+  font-weight: bold;
+  position: absolute;
+  right: 80px;
+  top: 140px;
+}

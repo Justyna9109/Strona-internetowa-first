@@ -1,0 +1,60 @@
+
+header {
+  background-color: black;
+  color: white;
+}
+
+.menu_list {
+  list-style: none;
+}
+
+.menu_list .menu_list_item {
+  display: inline-block;
+  position: relative;
+  margin: 0 20px;
+}
+
+.menu_list .menu_list_item .menu_link {
+  text-decoration: none;
+  display: block;
+  color: white;
+  margin: 10px;
+  text-transform: uppercase;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu article {
+  text-transform: uppercase;
+  margin-left: 50px;
+}
+
+.menu .word {
+  color: #00b3ff;
+}
+
+.nav_list {
+  list-style: none;
+  position: absolute;
+  border: 1px solid black;
+  background-color: black;
+  z-index: 2;
+  display: none;
+}
+
+.nav_list .nav_list_item {
+  margin: 10px;
+}
+
+.nav_list .nav_list_item .nav_link {
+  text-decoration: none;
+  color: white;
+}
+
+.menu_list_item:hover > .nav_list {
+  display: block;
+}

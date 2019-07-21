@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded",function (){
 
     funPicture.addEventListener("mouseover",function(){
         funPicture.parentElement.removeChild(funPicture);
+
     });
 
     var fun_funPicture= document.querySelector(".child_chair");
@@ -20,4 +21,46 @@ document.addEventListener("DOMContentLoaded",function (){
     });
 });
 
+
+// first-section //
+
+document.addEventListener("DOMContentLoaded",function () {
+    {console.log("DOM");}
+
+    var sign = document.querySelector(".sign");
+
+    var sign1 = document.querySelector(".sign1");
+
+    var list=document.querySelectorAll(".text_picture li");
+    for(var i=0;i<list.length;i++)
+
+    var index=0;
+
+    list[index].classList.add("visible");
+
+
+    sign1.addEventListener("click",function(){
+        console.log("click");
+
+        list[index].classList.remove("visible");
+        index++;
+        list[index].classList.add("visible");
+
+    });
+
+    sign.addEventListener("click",function(){
+        console.log("click");
+
+        list[index].classList.remove("visible");
+        index++;
+        list[index].classList.add("visible");
+
+    });
+
+
+
+
+
+
+});
 

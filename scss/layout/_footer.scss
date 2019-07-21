@@ -1,0 +1,49 @@
+
+.last {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+}
+
+.send_send {
+  font-size: 28px;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 15px;
+  right: 100px;
+}
+
+.one {
+  display: flex;
+  background-color: white;
+}
+
+.copy {
+  text-decoration: none;
+  margin-left: 40px;
+  color: grey;
+  padding: 20px;
+}
+
+.logo {
+  padding: 10px;
+  margin-left: 350px;
+}
+
+.sit {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: grey;
+  padding: 20px;
+  margin-left: 30px;
+}
+
+.contakt:after {
+  content: "";
+  height: 10px;
+  border-bottom: 8px solid #00b3ff;
+  position: absolute;
+  width: 300px;
+  left: 60px;
+  top: 50px;
+}

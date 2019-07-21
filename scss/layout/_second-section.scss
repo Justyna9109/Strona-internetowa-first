@@ -1,0 +1,100 @@
+
+.picture1 {
+  display: flex;
+  justify-content: space-around;
+  background-color: whitesmoke;
+}
+
+.picture {
+  background-color: black;
+}
+
+.find {
+  width: 350px;
+  border: 1px solid lightgray;
+  padding: 20px;
+  position: relative;
+  margin-top: 40px;
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+.child .child1 {
+  margin-bottom: 50px;
+}
+
+.words1 {
+  margin-top: 25px;
+}
+
+.words {
+  margin-top: 25px;
+}
+
+.child_name {
+  width: 330px;
+  height: 50px;
+  background-color: rgba(220, 220, 220, 0.6);
+  bottom: 60px;
+  position: absolute;
+}
+
+.picture_chair {
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.first_chair {
+  color: black;
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 15px;
+  font-family: 'ralewaybold';
+  font-weight: bold;
+}
+
+.first_chair:after {
+  content: "";
+  height: 10px;
+  border-bottom: 8px solid #00b3ff;
+  position: absolute;
+  top: 10px;
+  width: 150px;
+  left: 0;
+  margin-left: 10px;
+}
+
+.child_chair1 {
+  color: black;
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 15px;
+  font-family: 'ralewaybold';
+  font-weight: bold;
+}
+
+.child_chair1:after {
+  content: "";
+  height: 10px;
+  border-bottom: 8px solid #00b3ff;
+  position: absolute;
+  top: 10px;
+  width: 150px;
+  left: 0;
+  margin-left: 10px;
+}
+
+.chair_child {
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.child_chair {
+  position: absolute;
+  width: 330px;
+  height: 50px;
+  background-color: rgba(220, 220, 220, 0.6);
+  bottom: 60px;
+}

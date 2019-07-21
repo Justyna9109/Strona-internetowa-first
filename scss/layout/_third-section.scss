@@ -1,0 +1,278 @@
+
+.circel {
+  background-color: black;
+}
+
+.box, .box1, .box2 {
+  height: 450px;
+  width: 25%;
+  border: 1px solid rgba(211, 211, 211, 0.5);
+  position: relative;
+  background-color: whitesmoke;
+  margin-bottom: 60px;
+  margin-top: 80px;
+}
+
+.box {
+  margin-left: 20px;
+}
+
+.box1 {
+  margin-right: 20px;
+  background-color: #00b3ff;
+}
+
+.box_three {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.boxtree {
+  background-color: #d4d9db;
+  border: 1px solid gainsboro;
+}
+
+.circle, .circle2 {
+  position: absolute;
+  background-color: rgba(128, 128, 128, 0.5);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px rgba(211, 211, 211, 0.5);
+  border: 15px solid #fff;
+  top: -26px;
+  left: calc(50% - 26px);
+}
+
+.circle1 {
+  position: absolute;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px #00b3ff;
+  border: 15px solid #00b3ff;
+  top: -26px;
+  left: calc(50% - 26px);
+}
+
+.tekst, .tekst1, .tekst2 {
+  margin-top: 30px;
+}
+
+.basic, .basic1, .basic2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 25px;
+}
+
+.basic, .basic2 {
+  color: #00b3ff;
+}
+
+.basic1 {
+  color: white;
+}
+
+.border, .border2 {
+  border: 1px solid rgba(211, 211, 211, 0.6);
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  margin-top: 20px;
+  position: relative;
+  left: 95px;
+}
+
+.border1 {
+  background-color: white;
+  border: 1px solid #00b3ff;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  margin-top: 20px;
+  position: relative;
+  left: 95px;
+}
+
+.price {
+  position: absolute;
+  top: 100px;
+  right: 115px;
+  text-align: center;
+  color: grey;
+}
+
+.pl {
+  text-transform: uppercase;
+  margin-top: 5px;
+  font-family: 'ralewaybold';
+  opacity: .4;
+}
+
+.pl1 {
+  text-transform: uppercase;
+  margin-top: 5px;
+  color: #00b3ff;
+  font-family: 'ralewaybold';
+  font-weight: bold;
+}
+
+.money {
+  font-size: 40px;
+  font-weight: bold;
+  opacity: .4;
+}
+
+.money1 {
+  font-size: 40px;
+  color: #00b3ff;
+  font-family: 'ralewaybold';
+  font-weight: bold;
+}
+
+sup {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'ralewaybold';
+}
+
+.title1 {
+  text-transform: uppercase;
+  margin-left: 20px;
+  padding: 40px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.title1:after {
+  content: "";
+  height: 10px;
+  border-bottom: 8px solid #00b3ff;
+  position: absolute;
+  width: 300px;
+  top: 70px;
+  left: 60px;
+}
+
+.square {
+  width: 298px;
+  height: 40px;
+  border: 1px solid white;
+  margin-left: 0;
+  background-color: rgba(211, 211, 211, 0.4);
+  position: relative;
+  margin-top: 20px;
+}
+
+.buy {
+  position: absolute;
+  bottom: 205px;
+  right: 50px;
+  font-size: 23px;
+  opacity: .4;
+}
+
+.service {
+  position: absolute;
+  font-size: 23px;
+  bottom: 165px;
+  right: 120px;
+  opacity: .4;
+}
+
+.square_plus {
+  width: 298px;
+  height: 40px;
+  border: 1px solid white;
+  margin-left: 0;
+  background-color: white;
+  position: relative;
+  margin-top: 20px;
+}
+
+.square_plus_six {
+  width: 298px;
+  height: 40px;
+  border: 1px solid white;
+  margin-left: 0;
+  background-color: rgba(211, 211, 211, 0.4);
+  position: relative;
+}
+
+.square_one {
+  width: 298px;
+  height: 40px;
+  border: 1px solid white;
+  margin-left: 0;
+  background-color: rgba(211, 211, 211, 0.2);
+  position: relative;
+}
+
+.square_plus1 {
+  width: 298px;
+  height: 40px;
+  border: 1px solid white;
+  margin-left: 0;
+  background-color: white;
+  position: relative;
+}
+
+.gwarantion {
+  position: absolute;
+  bottom: 125px;
+  right: 70px;
+  font-size: 23px;
+  opacity: .4;
+}
+
+.ask {
+  font-size: 23px;
+  bottom: 87px;
+  right: 60px;
+  position: absolute;
+  opacity: .4;
+}
+
+.square1, .square1_plus {
+  width: 110px;
+  height: 40px;
+  background-color: #00b3ff;
+  border-radius: 10%;
+}
+
+.square1 {
+  margin-top: 20px;
+}
+
+.square1_plus {
+  margin-top: 100px;
+}
+
+.square1_ {
+  width: 110px;
+  height: 40px;
+  background-color: white;
+  margin-top: 60px;
+  border-radius: 10%;
+}
+
+.square1, .square1_, .square1_plus {
+  position: relative;
+  left: 100px;
+}
+
+.more_more, .more_more1 {
+  text-transform: uppercase;
+  bottom: 30px;
+  left: 120px;
+  position: absolute;
+}
+
+.more_more1 {
+  color: #00b3ff;
+}
+
+.more_more {
+  color: white;
+}
